@@ -10,5 +10,5 @@ provider "local" {}
 
 resource "local_file" "vm_info" {
   filename = "../ansible/vm_info.txt"
-  content  = "webserver_ip=192.168.122.1"
+  content  = "webserver_ip=192.168.1.7"
 }
